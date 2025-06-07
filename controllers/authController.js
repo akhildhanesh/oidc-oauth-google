@@ -21,4 +21,5 @@ export const tokenController = async (req, res) => {
     res.json({
         token: access_token
     })
+    return
 } 
